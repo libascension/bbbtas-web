@@ -16,3 +16,33 @@ document.getElementById('switch-1').addEventListener('click', function() {
     switch1 = true;
   }
 });
+
+document.getElementById('switch-2').addEventListener('click', function() {
+  if (switch1 === true) {
+    console.log('Switched to false');
+    switch1 = false;
+  } else if (switch1 === false) {
+    console.log('Switched to true');
+    switch1 = true;
+  }
+});
+
+document.getElementById('switch-3').addEventListener('click', function() {
+  if (switch1 === true) {
+    console.log('Switched to false');
+    switch1 = false;
+  } else if (switch1 === false) {
+    console.log('Switched to true');
+    switch1 = true;
+  }
+});
+
+document.getElementById('switch-4').addEventListener('click', function() {
+  if (switch1 === true) {
+    console.log('Switched to false');
+    switch1 = false;
+  } else if (switch1 === false) {
+    console.log('Switched to true');
+    switch1 = true;
+  }
+});
